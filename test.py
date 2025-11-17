@@ -1,5 +1,9 @@
 from pylab import *
-x=2;y=3;plot(x,y,'*r')
-x2=4;y2=5;plot(x2,y2,'*r')
-x3=5;y3=8;plot(x3,y3,'*r')
+
+y=[2,6,2,2]
+x=[8,5,2,8]
+
+plot (x,y)
+xlim(0,10)
+ylim(0,10)
 show()
