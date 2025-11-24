@@ -1,9 +1,10 @@
 from pylab import *
 
-y=[3,3,7,7,3]
-x=[3,7,7,3,3]
+for i in range (3,14):
+    y=[3]
+    x=[2+i]
+    plot (x,y,'*g')
 
-plot (x,y)
-xlim(0,10)
-ylim(0,10)
+xlim(0,20)
+ylim(2,4)
 show()
